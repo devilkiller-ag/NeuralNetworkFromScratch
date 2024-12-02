@@ -49,7 +49,8 @@ st.write("Neuron Value: ", calculation_string, " = ", output)
 
 
 st.subheader("Theory")
-displayPDF("public/Neurons.pdf")
+# displayPDF("resources/Neurons.pdf")
+st.image("resources/single_neuron.png")
 
 st.subheader("Example Implementation Using Python")
 code = """
